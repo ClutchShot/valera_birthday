@@ -293,11 +293,31 @@ function reveal() {
     w = 255;h = 155;
   }
 
-  var ifrm = document.createElement("iframe");
-  ifrm.setAttribute("src", "https://www.youtube.com/embed/gbICivOO26U?controls=0&loop=1&autoplay=1");
-  //ifrm.style.width = `${w}px`;
-  //ifrm.style.height = `${h}px`;
+  var ifrm = document.createElement("img");
+  ifrm.setAttribute("src", "img/1.jpg");
+  ifrm.setAttribute("id", "main1");
+  ifrm.style.width = `${w}px`;
+  ifrm.style.height = `${h}px`;
   ifrm.style.border = 'none';
   document.querySelector('#video').appendChild(ifrm);
+
+
+  var ifrm2 = document.createElement("img");
+  ifrm2.setAttribute("src", "img/2.jpg");
+  ifrm2.setAttribute("id", "main2");
+  ifrm2.style.width = `${w}px`;
+  ifrm2.style.height = `${h*3}px`;
+  ifrm2.style.border = 'none';
+  document.querySelector('#video1').appendChild(ifrm2);
+
+
+  var ifrm2 = document.createElement("img");
+  ifrm2.setAttribute("src", "img/3.jpg");
+  ifrm2.setAttribute("id", "main3");
+  ifrm2.style.width = `${w}px`;
+  ifrm2.style.height = `${h*2}px`;
+  ifrm2.style.border = 'none';
+  document.querySelector('#video2').appendChild(ifrm2);
+
 }
 
