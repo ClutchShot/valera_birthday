@@ -306,16 +306,15 @@ function reveal() {
   ifrm2.setAttribute("src", "img/2.jpg");
   ifrm2.setAttribute("id", "main2");
   ifrm2.style.width = `${w*2}px`;
-  ifrm2.style.height = `${h*2}px`;
+  ifrm2.style.height = `${h*3}px`;
   ifrm2.style.border = 'none';
   document.querySelector('#video1').appendChild(ifrm2);
-
 
   var ifrm3 = document.createElement("img");
   ifrm3.setAttribute("src", "img/3.jpg");
   ifrm3.setAttribute("id", "main3");
   ifrm3.style.width = `${w*2}px`;
-  ifrm3.style.height = `${h*2}px`;
+  ifrm3.style.height = `${h*3}px`;
   ifrm3.style.border = 'none';
   document.querySelector('#video2').appendChild(ifrm3);
 
@@ -323,7 +322,7 @@ function reveal() {
   ifrm4.setAttribute("src", "img/4.jpg");
   ifrm4.setAttribute("id", "main4");
   ifrm4.style.width = `${w*2}px`;
-  ifrm4.style.height = `${h*2}px`;
+  ifrm4.style.height = `${h*3}px`;
   ifrm4.style.border = 'none';
   document.querySelector('#video3').appendChild(ifrm4);
 
